@@ -4,3 +4,6 @@ kind: Sources
 sources:
 - image: downey/mando
   path: .
+  pack:
+    build:
+      builder: cloudfoundry/cnb:tiny
