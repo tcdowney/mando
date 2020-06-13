@@ -1,0 +1,12 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: mando
+spec:
+  rules:
+  - host: mando.k8s.downey.cloud
+    http:
+      paths:
+      - backend:
+          serviceName: mando
+          servicePort: 8080
