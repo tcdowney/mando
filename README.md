@@ -2,7 +2,7 @@
 
 
 # mando
-> this is the way
+> [this is the way](https://youtu.be/uelA7KRLINA?t=8)
 
 just a little app for testing path-based routing
 
